@@ -1,16 +1,21 @@
 
 *{
     margin: 0px;
-    background-color: antiquewhite ;
+    
 }
 
 body{
     font-family: 'Work Sans', sans-serif;
-    margin: auto;
-    width: 1440px;
+
 }
 
 /* primary */
+:root {
+    --main-width: 1440px;
+    --pri-color: #FF900E;
+  }
+
+
 .pri-btn{
     color: white;
     font-size: 20px;
@@ -24,10 +29,16 @@ body{
 
 /*header section start
 ========= */
+header{
+    background-color: antiquewhite ;
+}
 .main-header{
+    margin: auto;
+    width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 50px;
 }
 .site-logo{
     font-size: 24px;
@@ -43,7 +54,7 @@ nav ul li{
 /* hero section */
 
 .hero-sec{
-    
+    padding-bottom: 50px;
 }
 
 .hero-text{
@@ -54,13 +65,15 @@ nav ul li{
     font-size: 45px;
 }
 .hero-text p{
-    margin: 30px 0px;
+    margin: 30px 200px;
 }
 .hero-btn{
     text-align: center;
 }
 .hero-image{
-    margin: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px ;
 }
 
 
@@ -71,8 +84,41 @@ nav ul li{
 ========= */
 
 /* features section start */
+.features{
+    margin: auto;
+    width: var(--main-width);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+.glary{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.features-texts{
+    padding: 70px;
+}
+.features-texts-title h2{
+    font-size: 45px;
+    font-weight: 400;
+}
+.features-text-details p{
+    font-size: 18px;
+    margin: 24px 0px;
+}
 
 
+
+.f-style{
+    font-weight: 700;
+    color: var(--pri-color);
+}
+.q-style{
+    color: rgb(122, 118, 118);
+}
 
 
 /* features section end */
