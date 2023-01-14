@@ -1,3 +1,40 @@
-h1{
-    color: aquamarine;
+
+*{
+    margin: 0px;
+    background-color: antiquewhite ;
 }
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: auto;
+    width: 1440px;
+}
+
+/*header section start
+========= */
+header{
+    
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-logo{
+    font-size: 24px;
+}
+nav ul{
+    display: flex;
+    gap: 35px;
+}
+nav ul li{
+    list-style: none;
+}
+
+
+
+
+
+
+/*header section end
+========= */
