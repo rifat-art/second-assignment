@@ -187,6 +187,53 @@ Experience section end
     Some Facts section start  
 ==========================*/
 
+.some-fact-sec{
+    margin: auto;
+    width: var(--main-width);
+}
+.some-fact-headings h2{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.some-fact-headings p{
+    font-size: 18px;
+}
+.some-facts{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 100px 0px;
+}
+.one-fact{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    border: 2px solid var(--pri-color);
+    border-radius: 8px;
+    padding: 40px 40px;
+}
+
+.one-fact h3{
+    font-size: 35px;
+    color: rgb(75, 74, 74);
+}
+.one-fact p{
+    font-size: 18px;
+    color: rgb(75, 74, 74);
+}
+
+/* hover */
+
+.one-fact:hover{
+    border: 2px solid var(--pri-color);
+    background-color: rgb(134, 253, 213);
+    border-radius: 8px;
+    padding: 40px 40px;
+}
+/* hover */
+
+
 
 
 /* =======================
