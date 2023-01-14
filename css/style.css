@@ -246,5 +246,14 @@ Experience section end
     Sponsors section start
 
 ==========================*/
-
-
+.sponsors-sec{
+    margin: auto;
+    width: var(--main-width);
+}
+.sponsor-images{
+    display: flex;
+    justify-content: space-around;
+}
+.sponsor-images img{
+    filter: grayscale(100%);
+}
