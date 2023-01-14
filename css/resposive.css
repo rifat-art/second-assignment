@@ -50,7 +50,28 @@
       justify-content: center;
       width:100%;
   }
-  
-  }
-  /*header section end
+    /*header section end
   ========= */
+  .featurs{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .glary {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+  }
+  .glary img{
+    width: 50%;
+  }
+  .features-texts {
+    padding: 30px;
+  }
+  .features-texts-title h2 {
+    font-size: 30px;
+  }
+  .features-text-details p {
+    font-size: 16px;
+  }
+
+  }
+  
