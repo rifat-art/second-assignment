@@ -43,11 +43,12 @@ nav ul li{
 /* hero section */
 
 .hero-sec{
-    padding: 100px 285px;
+    
 }
 
 .hero-text{
     text-align: center;
+    padding: 100px 285px 0px;
 }
 .hero-text h2{
     font-size: 45px;
@@ -57,6 +58,9 @@ nav ul li{
 }
 .hero-btn{
     text-align: center;
+}
+.hero-image{
+    margin: 50px;
 }
 
 
