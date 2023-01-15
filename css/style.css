@@ -155,6 +155,8 @@ features section end
 
 .features-title h2 {
     font-size: 45px;
+    border-left: 10px solid var(--pri-color);
+    padding-left: 10px;
 }
 
 .features-discrip p {
@@ -247,7 +249,7 @@ Experience section end
 
 /* hover */
 
-.one-fact:hover {}
+/* .one-fact:hover {} */
 
 /* hover */
 
@@ -295,7 +297,6 @@ Experience section end
 
 .contact {
     width: var(--main-width);
-
     padding: 100px;
     margin: 50px auto 0px;
     display: flex;

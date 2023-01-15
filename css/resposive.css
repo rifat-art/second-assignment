@@ -2,15 +2,18 @@
 
     /*header section start
   ========= */
-    header {
+  body{
+    width: 100%;
+  } 
+  header {
         background-color: antiquewhite;
-        width: 576px;
+        width: 100%;
         margin: auto;
     }
 
     .main-header {
         margin: auto;
-        width: 576px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -18,7 +21,7 @@
     }
 
     .site-logo {
-        font-size: 24px;
+        font-size: 20px;
         flex-basis: 100%;
         text-align: center;
     }
@@ -73,7 +76,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        width: 576px;
+        width: 100%;
         margin: auto;
         padding: 30px 0px;
     }
@@ -108,7 +111,7 @@ Experience section start
 ==========================*/
     .sec-two {
         margin: auto;
-        width: 576px;
+        width: 100%;
         padding: 30px 0px;
     }
 
@@ -118,14 +121,13 @@ Experience section start
         align-items: center;
         justify-items: center;
         margin: auto;
-        width: 576px;
+        width: 100%;
     }
 
-    .features-details {
-        width: 576px;
-        /* margin-left:10px; */
-        padding: 0px;
-    }
+    /* .features-details {
+        width: 100%;
+        margin: auto;
+    } */
 
     .features-title h2 {
         font-size: 45px;
@@ -135,29 +137,24 @@ Experience section start
     .features-discrip p {
         font-size: 14px;
         text-align: center;
-        margin: 25px;
-
     }
 
     .features-lists {
-        width: 576px;
+        width: 100%;
         margin: auto;
     }
 
     .one-features-list {
         background-color: rgb(255, 255, 255);
         box-shadow: 1px 1px 10px 1px rgb(180, 180, 180);
-        margin-bottom: 15px;
-        padding: 15px;
+
+        margin: 0px 0px 15px;
+        width: 100%;
     }
 
     .fl-title {
         margin-bottom: 10px;
     }
-
-    /* .ex-btn{
-    text-align: center;
-} */
     .ex-btn button {
         color: white;
         font-size: 16px;
@@ -186,11 +183,9 @@ Experience section end
     /* =======================
 fact start
 ==========================*/
-    .some-facts {}
-
     .some-fact-sec {
         text-align: center;
-        width: 576px;
+        width: 100%;
         margin: auto;
     }
 
@@ -233,13 +228,13 @@ sponsor start
     }
 
     .sponsor-images img {
-        width: 50%;
+        width: 100%;
     }
 
     /* contact section start */
 
     .contact-img img {
-        display: none;
+
     }
 
     .contact {
@@ -247,16 +242,25 @@ sponsor start
         flex-direction: column;
         justify-content: center;
         justify-items: center;
+        align-items: center;
         margin: auto;
-        width: 576px;
+        width: 100%;
         margin-top: 50px;
         padding: 0px;
     }
 
     .form {
-        padding: 50px;
+        padding: 70px;
         border-radius: 8px;
     }
+    .contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
 
     /* contact section end */
 
@@ -264,20 +268,26 @@ sponsor start
 footer section start
 =============== */
 
-    footer {
-        margin: 50px auto;
-        width: 75%;
-
-    }
-
-    footer p {
-        text-align: center;
-        font-size: 10px;
-    }
-
-
+footer {
+    background-color: antiquewhite;
+    margin: 50px auto 0px;
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 0px;
+}
+footer p a {
+    text-decoration: none;
+    color: var(--pri-color);
+}
+footer p {
+    text-align: center;
+    font-size: 10px;
+}
+.hide {
+    display: none;
 }
 
 /* ==============
 footer section end
 =============== */
+}
