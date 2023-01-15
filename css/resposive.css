@@ -93,54 +93,67 @@
 Experience section start 
 ==========================*/
 .sec-two{
-    padding: 100px 0px;
+   margin: auto;
+   width: 576px;
 }
 .experience{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-items: center;    
     margin: auto;
-    width: var(--main-width);
+    width: 576px;
 }
 .features-details{
-    padding: 50px;
+    width: 576px;
+    /* margin-left:10px; */
+    padding: 0px;
 }
 .features-title h2{
     font-size: 45px;
+    text-align: center;
 }
 .features-discrip p{
-    font-size: 18px;
-    margin: 25px 0px;
-}
+    font-size: 14px;
+    text-align: center;
+    margin: 25px;
 
+}
+.features-lists{
+    width: 576px;
+    margin: auto;
+}
 
 .one-features-list{
     background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 20px 1px rgb(180, 180, 180);
+    box-shadow: 1px 1px 10px 1px rgb(180, 180, 180);
     margin-bottom: 15px;
-    margin-right: 50px;
     padding: 15px;
 }
 .fl-title{
     margin-bottom: 10px;
 }
 
-.ex-btn{
+/* .ex-btn{
     text-align: center;
-}
+} */
 .ex-btn button{
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     background-color: var(--pri-color);
     border: 0px;
     border-radius: 8px;
-    padding: 40px 50px;
-    margin: -500px 0px 0px 100px;
+    padding: 20px 30px;
+    margin: 0px;
 }
 
 .ten-years{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
+}
+.features-image img{
+    width: 100%;
 }
 
 /* =======================
