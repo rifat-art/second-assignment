@@ -236,22 +236,45 @@ Experience section end
     border: 2px solid var(--pri-color);
     border-radius: 8px;
     padding: 40px 40px;
+    background-color: white;
+    transition: background-color 0.5s ease;
 }
 
 .one-fact h3 {
     font-size: 35px;
     color: rgb(75, 74, 74);
+    transition: color 0.5s ease;
 }
 
 .one-fact p {
     font-size: 18px;
     color: rgb(75, 74, 74);
+    transition: color 0.5s ease;
 }
 
 /* hover */
 
-/* .one-fact:hover {} */
+.one-fact:hover {
+    background-color: var(--pri-color);
+    box-shadow: 1px 1px 20px 1px rgb(180, 180, 180);
+    transform: matrix3d(200px);
+}
+.one-fact:hover h3{
+    color: white;
+}
+.one-fact:hover p{
+    color: white;
+}
 
+.one-fact .fact-icon img{
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    transition: transform 0.85s ease-in;
+}
+.one-fact:hover .fact-icon img{
+    transform: rotate(360deg);
+}
 /* hover */
 
 

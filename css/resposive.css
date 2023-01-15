@@ -233,10 +233,6 @@ sponsor start
 
     /* contact section start */
 
-    .contact-img img {
-
-    }
-
     .contact {
         display: flex;
         flex-direction: column;
