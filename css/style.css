@@ -25,6 +25,10 @@ body {
     padding: 20px 25px;
 
 }
+.pri-btn:hover{
+    box-shadow: 1px 1px 15px 1px rgb(180, 180, 180);
+    cursor: pointer;
+}
 
 /*header section start
 ========= */
@@ -191,6 +195,10 @@ features section end
     padding: 40px 50px;
     margin: -500px 0px 0px 100px;
 }
+.ex-btn:hover button{
+    box-shadow: 1px 1px 20px 1px rgb(180, 180, 180);
+    cursor: pointer;
+}
 
 .ten-years {
     font-size: 40px;
@@ -258,6 +266,7 @@ Experience section end
     background-color: var(--pri-color);
     box-shadow: 1px 1px 20px 1px rgb(180, 180, 180);
     transform: matrix3d(200px);
+    cursor: pointer;
 }
 .one-fact:hover h3{
     color: white;
@@ -306,6 +315,8 @@ Experience section end
 
 .sponsor-images img:hover {
     filter: grayscale(0%);
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 
@@ -388,8 +399,3 @@ footer p a {
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 Footer section end
 ==========================*/
-
-
-.hide {
-    display: none;
-}
