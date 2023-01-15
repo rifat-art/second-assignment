@@ -162,6 +162,9 @@ Experience section end
 ==========================*/
 
 
+/* =======================
+fact start
+==========================*/
 .some-facts{
 
 }
@@ -183,8 +186,12 @@ Experience section end
 .some-fact-headings p{
     margin: 0px 10px;
 }
-/* 8888888888888888888888888888888 */
-
+/*=======================
+fact section end 
+==========================*/
+/*========================================================== 
+sponsor start 
+============================================================ */
 .sponsors-sec{
     display: flex;
     flex-direction: column;
@@ -204,5 +211,46 @@ Experience section end
     width: 50%;
 }
 
+/* contact section start */
+
+.contact-img img{
+    display: none;
+} 
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    width: 576px;
+    margin-top: 50px;
+    padding: 0px;
 }
+.form{
+    padding: 50px;
+    border-radius: 8px;
+}
+
+/* contact section end */
+
+/* ==============
+footer section start
+=============== */
+
+footer{
+    margin: 50px auto;
+    width: 75%;
+
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+
+
+}
+
+/* ==============
+footer section end
+=============== */
   
