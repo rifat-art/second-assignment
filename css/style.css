@@ -1,10 +1,9 @@
-
-*{
+* {
     margin: 0px;
-    
+
 }
 
-body{
+body {
     font-family: 'Work Sans', sans-serif;
 
 }
@@ -13,10 +12,10 @@ body{
 :root {
     --main-width: 1440px;
     --pri-color: #FF900E;
-  }
+}
 
 
-.pri-btn{
+.pri-btn {
     color: white;
     font-size: 20px;
     font-weight: 500;
@@ -29,10 +28,11 @@ body{
 
 /*header section start
 ========= */
-header{
-    background-color: antiquewhite ;
+header {
+    background-color: antiquewhite;
 }
-.main-header{
+
+.main-header {
     margin: auto;
     width: 1440px;
     display: flex;
@@ -40,40 +40,47 @@ header{
     align-items: center;
     padding-top: 50px;
 }
-.site-logo{
+
+.site-logo {
     font-size: 24px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     gap: 35px;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
 }
 
 /* hero section */
 
-.hero-sec{
+.hero-sec {
     padding-bottom: 50px;
 }
 
-.hero-text{
+.hero-text {
     text-align: center;
     padding: 100px 285px 0px;
 }
-.hero-text h2{
+
+.hero-text h2 {
     font-size: 45px;
 }
-.hero-text p{
+
+.hero-text p {
     margin: 30px 200px;
 }
-.hero-btn{
+
+.hero-btn {
     text-align: center;
 }
-.hero-image{
+
+.hero-image {
     display: flex;
     justify-content: center;
-    margin-top: 50px ;
+    margin-top: 50px;
 }
 
 
@@ -84,7 +91,7 @@ nav ul li{
 ========= */
 
 /* features section start */
-.features{
+.features {
     margin: auto;
     width: var(--main-width);
     display: flex;
@@ -92,20 +99,23 @@ nav ul li{
     align-items: center;
     padding: 100px 0px;
 }
-.glary{
+
+.glary {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
 }
 
-.features-texts{
+.features-texts {
     padding: 70px;
 }
-.features-texts-title h2{
+
+.features-texts-title h2 {
     font-size: 45px;
     font-weight: 400;
 }
-.features-text-details p{
+
+.features-text-details p {
     font-size: 18px;
     margin: 24px 0px;
 }
@@ -113,11 +123,12 @@ nav ul li{
 
 /* quick list of our features title styles */
 
-.f-style{
+.f-style {
     font-weight: 700;
     color: var(--pri-color);
 }
-.q-style{
+
+.q-style {
     color: rgb(122, 118, 118);
 }
 
@@ -127,42 +138,48 @@ nav ul li{
 /* =====================
 features section end 
 ========================*/
-.sec-two{
+.sec-two {
     padding: 100px 0px;
 }
-.experience{
+
+.experience {
     display: flex;
     align-items: center;
     margin: auto;
     width: var(--main-width);
 }
-.features-details{
+
+.features-details {
     padding: 50px;
 }
-.features-title h2{
+
+.features-title h2 {
     font-size: 45px;
 }
-.features-discrip p{
+
+.features-discrip p {
     font-size: 18px;
     margin: 25px 0px;
 }
 
 
-.one-features-list{
+.one-features-list {
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 20px 1px rgb(180, 180, 180);
     margin-bottom: 15px;
     margin-right: 50px;
     padding: 15px;
 }
-.fl-title{
+
+.fl-title {
     margin-bottom: 10px;
 }
 
-.ex-btn{
+.ex-btn {
     text-align: center;
 }
-.ex-btn button{
+
+.ex-btn button {
     color: white;
     font-size: 20px;
     font-weight: 500;
@@ -173,7 +190,7 @@ features section end
     margin: -500px 0px 0px 100px;
 }
 
-.ten-years{
+.ten-years {
     font-size: 40px;
     font-weight: 600;
 }
@@ -187,24 +204,28 @@ Experience section end
     Some Facts section start  
 ==========================*/
 
-.some-fact-sec{
+.some-fact-sec {
     margin: auto;
     width: var(--main-width);
 }
-.some-fact-headings h2{
+
+.some-fact-headings h2 {
     font-size: 45px;
     margin-bottom: 10px;
 }
-.some-fact-headings p{
+
+.some-fact-headings p {
     font-size: 18px;
 }
-.some-facts{
+
+.some-facts {
     display: flex;
     justify-content: space-around;
     align-content: center;
     margin: 100px 0px;
 }
-.one-fact{
+
+.one-fact {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
@@ -214,20 +235,20 @@ Experience section end
     padding: 40px 40px;
 }
 
-.one-fact h3{
+.one-fact h3 {
     font-size: 35px;
     color: rgb(75, 74, 74);
 }
-.one-fact p{
+
+.one-fact p {
     font-size: 18px;
     color: rgb(75, 74, 74);
 }
 
 /* hover */
 
-.one-fact:hover{
-    
-}
+.one-fact:hover {}
+
 /* hover */
 
 
@@ -243,18 +264,21 @@ Experience section end
     Sponsors section start
 
 ==========================*/
-.sponsors-sec{
+.sponsors-sec {
     margin: auto;
     width: var(--main-width);
 }
-.sponsor-images{
+
+.sponsor-images {
     display: flex;
     justify-content: space-around;
 }
-.sponsor-images img{
+
+.sponsor-images img {
     filter: grayscale(100%);
 }
-.sponsor-images img:hover{
+
+.sponsor-images img:hover {
     filter: grayscale(0%);
 }
 
@@ -269,7 +293,7 @@ Experience section end
     contact section start
 ==========================*/
 
-.contact{
+.contact {
     width: var(--main-width);
 
     padding: 100px;
@@ -278,31 +302,33 @@ Experience section end
     justify-content: space-around;
     align-items: center;
 }
-.form{
+
+.form {
     background-color: antiquewhite;
     padding: 100px;
 }
+
 .contact-form {
     width: 100%;
     margin: 0 auto;
-  }
-  
-  .contact-form label {
+}
+
+.contact-form label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-  }
-  
-  .contact-form input[type="text"],
-  .contact-form input[type="email"],
-  .contact-form textarea {
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-bottom: 20px;
-  }
-  
-  .contact-form input[type="submit"] {
+}
+
+.contact-form input[type="submit"] {
     background-color: var(--pri-color);
     color: white;
     padding: 12px 20px;
@@ -310,7 +336,7 @@ Experience section end
     border-radius: 8px;
     cursor: pointer;
     font-size: 18px;
-  }
+}
 
 /*======================================================
  contact section end
@@ -323,10 +349,12 @@ footer {
     padding: 20px 0px;
     border-radius: 8px;
 }
-footer p{
+
+footer p {
     text-align: center;
 }
-footer p a{
+
+footer p a {
     text-decoration: none;
     color: var(--pri-color);
 }
@@ -337,9 +365,6 @@ Footer section end
 ==========================*/
 
 
-.hide{
+.hide {
     display: none;
 }
-
-
-  
