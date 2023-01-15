@@ -291,3 +291,20 @@ footer p {
 footer section end
 =============== */
 }
+
+
+
+@media only screen and (max-width: 390px) {
+    .hero-text {
+        text-align: center;
+        padding: 20px 0px 0px;
+}
+
+.hero-text h2{
+    font-size: 35px;
+}
+.features-title h2{
+    font-size: 26px;
+    text-align: left;
+}
+}
